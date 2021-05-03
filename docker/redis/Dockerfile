@@ -1,4 +1,4 @@
-FROM redis:5.0.3-alpine AS base
+FROM redis:5.0.11-alpine AS base
 
 # Note on persistence: This is configured to create persistent data, which
 # it will do in the /data directory on the container. If you want to use it
